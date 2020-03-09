@@ -1,0 +1,13 @@
+{
+    "name": "root/ems",
+    "description": "EMS Interface",
+    "type": "project",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "Piaf Best",
+            "email": "contact@piafthebest.fr"
+        }
+    ]
+}
