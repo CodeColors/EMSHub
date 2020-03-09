@@ -56,7 +56,7 @@ I use Bootstrap to make this project real. I use even HTML/CSS/JS/PHP for develo
 
 * [Bootstrap](https://getbootstrap.com)
 
-### Installation
+## Installation
 
 Download release build.
 Install it on your web server.
