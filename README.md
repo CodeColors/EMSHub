@@ -11,7 +11,7 @@
     <img src="https://zupimages.net/up/20/11/xlbv.png" alt="Logo" width="250" height="96">
   </a>
 
-  <h3 align="center">ConvoyManager</h3>
+  <h3 align="center">EMSHub</h3>
 
   <p align="center">
     A FiveM Roleplay Panel
