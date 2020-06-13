@@ -5,8 +5,8 @@
     }
 
     require('db.php');
-
-    if($_GET['type'] == "1"){
+    
+    if(isset($_GET['type']) AND $_GET['type'] == "1"){
         if($_SESSION['rank'] == "1"){
             if(!empty($_GET['id'])){
                 $dossier = $bdd->query('SELECT * FROM dossiers WHERE id='.$_GET['id']);
@@ -29,7 +29,7 @@
         }else{
             header('Location: index.php');
         }
-    }elseif($_GET['type'] == "2"){
+    }elseif(isset($_GET['type']) AND $_GET['type'] == "2"){
         if($_SESSION['rank'] == "1"){
             if(!empty($_GET['id'])){
                 $bdd->query("DELETE FROM dossiers WHERE id=".$_GET['id']);
